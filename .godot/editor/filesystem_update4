@@ -6,3 +6,5 @@ res://Script/student.gd
 res://Script/player.gd
 res://Script/canvas_layer.gd
 res://Script/canvas_modulate.gd
+res://enemy.gd
+res://examSpawner.gd

@@ -1,33 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://cesymtlnt8vjk"]
+[gd_scene load_steps=3 format=3 uid="uid://bnoyqfj1gmdwj"]
 
-[ext_resource type="Script" path="res://Script/player.gd" id="1_mr68b"]
-[ext_resource type="Script" path="res://Script/student.gd" id="2_f1y1y"]
-[ext_resource type="Script" path="res://Script/exam.gd" id="3_l4dnl"]
-[ext_resource type="Script" path="res://Script/game_controller.gd" id="4_8eewx"]
-[ext_resource type="Script" path="res://Script/canvas_modulate.gd" id="5_m1umw"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_meqc3"]
+[ext_resource type="Script" path="res://examSpawner.gd" id="1_euoox"]
+[ext_resource type="PackedScene" uid="uid://qr4wtrmfkh66" path="res://enemy.tscn" id="2_w6hwj"]
 
 [node name="MainScene" type="Node2D"]
 
-[node name="Player" type="Node2D" parent="."]
-script = ExtResource("1_mr68b")
+[node name="player" type="Node2D" parent="."]
+script = ExtResource("1_euoox")
 
-[node name="Student" type="Node2D" parent="."]
-script = ExtResource("2_f1y1y")
-
-[node name="Exam" type="Node2D" parent="."]
-script = ExtResource("3_l4dnl")
-
-[node name="Controller" type="Node2D" parent="."]
-script = ExtResource("4_8eewx")
-
-[node name="CanvasModulate" type="CanvasModulate" parent="."]
-script = ExtResource("5_m1umw")
-
-[node name="HealthLabel" type="Label" parent="CanvasModulate"]
-offset_right = 177.0
-offset_bottom = 69.0
-scale = Vector2(0.997959, 0.965491)
-text = "Test test123"
-label_settings = SubResource("LabelSettings_meqc3")
+[node name="enemy" parent="." instance=ExtResource("2_w6hwj")]
