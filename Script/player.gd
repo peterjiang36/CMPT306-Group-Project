@@ -1,5 +1,5 @@
 extends Node2D
-
+class_name Player
 
 
 	
@@ -19,4 +19,4 @@ func reduce_health(amount: int) -> void:
 # Method to handle game over condition
 func game_over() -> void:
 	print("Game Over!")
-	# You might want to trigger an end-game screen or reset logic here
+	

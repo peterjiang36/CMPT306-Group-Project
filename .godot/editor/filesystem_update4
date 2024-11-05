@@ -1,0 +1,8 @@
+res://MainScene.tscn
+res://Script/exam.gd
+res://GameController.tscn
+res://Script/game_controller.gd
+res://Script/student.gd
+res://Script/player.gd
+res://Script/canvas_layer.gd
+res://Script/canvas_modulate.gd

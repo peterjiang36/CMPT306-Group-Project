@@ -1,5 +1,6 @@
 # Student.gd
 extends Node2D
+class_name Student
 
 # Define the timer duration for each exam completion
 var exam_timer_duration: float = 5.0
