@@ -1,7 +1,7 @@
 extends Node2D
 class_name Enemy
 
-var timer = Timer.new()
+@onready var timer = Timer.new()
 
 func _ready() -> void:
 	add_child(timer)
@@ -9,7 +9,7 @@ func _ready() -> void:
 
 func start_timer() -> void:
 	# Randomize the timer duration between 1 and 5 seconds
-	var duration = randf_range(1.0, 10.0)
+	var duration = randf_range(1.0, 5.0)
 	timer.start(duration)
 	print("timer is started")
 

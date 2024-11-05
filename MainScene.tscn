@@ -1,18 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://bnoyqfj1gmdwj"]
+[gd_scene load_steps=3 format=3 uid="uid://bnoyqfj1gmdwj"]
 
+[ext_resource type="Script" path="res://main_scene.gd" id="1_6v0dy"]
 [ext_resource type="Script" path="res://examSpawner.gd" id="1_euoox"]
-[ext_resource type="PackedScene" uid="uid://qr4wtrmfkh66" path="res://enemy.tscn" id="2_w6hwj"]
-[ext_resource type="Texture2D" uid="uid://cr7spvsdx6u08" path="res://icon.svg" id="3_v308c"]
 
 [node name="MainScene" type="Node2D"]
+script = ExtResource("1_6v0dy")
 
 [node name="player" type="Node2D" parent="."]
 script = ExtResource("1_euoox")
-
-[node name="enemy" parent="." instance=ExtResource("2_w6hwj")]
-scale = Vector2(1.03847, 7.05306)
-
-[node name="Sprite2D" type="Sprite2D" parent="enemy"]
-position = Vector2(540.216, 39.5573)
-scale = Vector2(0.510874, 0.0809252)
-texture = ExtResource("3_v308c")

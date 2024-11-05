@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1730758765
+::res://::1730777386
+enemy.gd::GDScript::-1::1730775898::0::1::::Enemy<>Node2D<>::
+Enemy_Scene.tscn::PackedScene::2403775813376519423::1730777245::0::1::::<><>::res://enemy.gd<>uid://cr7spvsdx6u08::::res://icon.svg
+examSpawner.gd::GDScript::-1::1730777245::0::1::::Player<>Node2D<>::
 icon.svg::CompressedTexture2D::6033232621106152203::1730757449::1730758766::1::::<><>::
-MainScene.tscn::PackedScene::5092235194418535336::1730758464::0::1::::<><>::res://Script/player.gd<>res://Script/student.gd
-::res://Script/::1730758660
-player.gd::GDScript::-1::1730758060::0::1::::<>Node2D<>::
-student.gd::GDScript::-1::1730758464::0::1::::<>Node2D<>::
+MainScene.tscn::PackedScene::3329262997783037761::1730777245::0::1::::<><>::res://main_scene.gd<>res://examSpawner.gd
+main_scene.gd::GDScript::-1::1730777054::0::1::::<>Node2D<>::
