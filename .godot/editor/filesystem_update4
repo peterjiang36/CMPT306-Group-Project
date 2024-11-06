@@ -1,8 +1,2 @@
-res://MainScene.tscn
-res://Enemy_Scene.tscn
 res://Exam_Builder.tscn
 res://control.tscn
-res://control.gd
-res://score.gd
-res://exam_builder.gd
-res://exam_paper.gd
