@@ -1,8 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1730777386
-enemy.gd::GDScript::-1::1730775898::0::1::::Enemy<>Node2D<>::
-Enemy_Scene.tscn::PackedScene::2403775813376519423::1730777245::0::1::::<><>::res://enemy.gd<>uid://cr7spvsdx6u08::::res://icon.svg
-examSpawner.gd::GDScript::-1::1730777245::0::1::::Player<>Node2D<>::
+::res://::1730845174
+enemy.gd::GDScript::-1::1730778457::0::1::::Enemy<>Node2D<>::
+Enemy_Scene.tscn::PackedScene::2403775813376519423::1730843416::0::1::::<><>::res://enemy.gd<>uid://cr7spvsdx6u08::::res://icon.svg
+examSpawner.gd::GDScript::-1::1730778149::0::1::::Player<>Node2D<>::
+Exam_Builder.tscn::PackedScene::2933607488174753457::1730845068::0::1::::<><>::uid://dse6f2qd2ofjx::::res://ClickerBilder/2211730843837_.pic.png<>uid://ckiwecxpqcdwn::::res://ClickerBilder/Screenshot 2024-11-05 at 4.14.52 PM.png
 icon.svg::CompressedTexture2D::6033232621106152203::1730757449::1730758766::1::::<><>::
-MainScene.tscn::PackedScene::3329262997783037761::1730777245::0::1::::<><>::res://main_scene.gd<>res://examSpawner.gd
-main_scene.gd::GDScript::-1::1730777054::0::1::::<>Node2D<>::
+MainScene.tscn::PackedScene::3329262997783037761::1730843416::0::1::::<><>::res://main_scene.gd<>res://examSpawner.gd
+main_scene.gd::GDScript::-1::1730779248::0::1::::<>Node2D<>::
+::res://ClickerBilder/::1730845177
+2211730843837_.pic.png::CompressedTexture2D::8432811346345678301::1730844036::1730844049::1::::<><>::
+bg.png::CompressedTexture2D::3465142351411581269::1567728896::1730843102::1::::<><>::
+BuyButton.png::CompressedTexture2D::2449589253464297164::1567745238::1730843102::1::::<><>::
+closeButton.png::CompressedTexture2D::380495450134657474::1567745090::1730843102::1::::<><>::
+cookie.png::CompressedTexture2D::6305140784714310495::1567728924::1730843102::1::::<><>::
+cookiePressed.png::CompressedTexture2D::2769696930712115761::1567728946::1730843102::1::::<><>::
+ExamPaper.jpg::CompressedTexture2D::3253567653840026902::1730844831::1730844850::0::::<><>::
+menuBg.png::CompressedTexture2D::646440111678929511::1567745114::1730843102::1::::<><>::
+Screenshot 2024-11-05 at 2.25.00 PM.png::CompressedTexture2D::1620676056591800658::1730838323::1730843103::1::::<><>::
+Screenshot 2024-11-05 at 4.14.52 PM.png::CompressedTexture2D::5492587884095683381::1730844897::1730844901::1::::<><>::
+shopButton.png::CompressedTexture2D::1712497657526338848::1567745066::1730843102::1::::<><>::
+smaller.png::CompressedTexture2D::7955790663003740751::1730845169::1730845181::1::::<><>::
+topBar.png::CompressedTexture2D::7601117872687571427::1567728968::1730843102::1::::<><>::
