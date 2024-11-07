@@ -12,10 +12,12 @@ var increment_interval = 1.0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	score.text = str(increment_score)
+	$"BG-Music".play()
 	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	
 	time_accumulator += delta
 	
 	if time_accumulator >= increment_interval:
@@ -25,5 +27,6 @@ func _process(delta: float) -> void:
 
 
 func _on_exam_paper_pressed() -> void:
+	$PaperPressSound.play()
 	increment_score+=1
 	score.text = str(increment_score)

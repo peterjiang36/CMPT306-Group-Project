@@ -1,13 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731011670
+::res://::1731013099
 icon.svg::CompressedTexture2D::6033232621106152203::1730859489::1730869465::1::::<><>::
-Exam_Builder.tscn::PackedScene::4108220504027049900::1731011495::0::1::::<><>::uid://dse6f2qd2ofjx::::res://ClickerBilder/2211730843837_.pic.png<>res://exam_builder.gd<>uid://ckiwecxpqcdwn::::res://ClickerBilder/Screenshot 2024-11-05 at 4.14.52 PM.png<>uid://dll3yeuq71ek2::::res://ClickerBilder/smaller.png<>res://exam_paper.gd<>uid://caoaqcgqo71ik::::res://ClickerBilder/kenvector_future_thin.ttf
-exam_builder.gd::GDScript::-1::1731011495::0::1::::<>Node2D<>::
+Exam_Builder.tscn::PackedScene::4108220504027049900::1731013099::0::1::::<><>::uid://dse6f2qd2ofjx::::res://ClickerBilder/2211730843837_.pic.png<>res://exam_builder.gd<>uid://ckiwecxpqcdwn::::res://ClickerBilder/Screenshot 2024-11-05 at 4.14.52 PM.png<>uid://dll3yeuq71ek2::::res://ClickerBilder/smaller.png<>res://exam_paper.gd<>uid://caoaqcgqo71ik::::res://ClickerBilder/kenvector_future_thin.ttf<>uid://xgwdcfdoafb3::::res://ClickerBilder/paperSFX.wav<>uid://dkavdunp1vl2v::::res://ClickerBilder/bgMusic.wav
+exam_builder.gd::GDScript::-1::1731012823::0::1::::<>Node2D<>::
 exam_paper.gd::GDScript::-1::1731010113::0::1::::<>TextureButton<>::
 control.tscn::PackedScene::8807645085736378708::1731008513::0::1::::<><>::
-::res://ClickerBilder/::1731011695
+::res://ClickerBilder/::1731012776
 2211730843837_.pic.png::CompressedTexture2D::8432811346345678301::1730859489::1730869466::1::::<><>::
 bg.png::CompressedTexture2D::3465142351411581269::1730859489::1730869465::1::::<><>::
+bgMusic.wav::AudioStreamWAV::7862431972956012863::1731012750::1731013104::1::::<><>::
 BuyButton.png::CompressedTexture2D::2449589253464297164::1730859489::1730869465::1::::<><>::
 closeButton.png::CompressedTexture2D::380495450134657474::1730859489::1730869465::1::::<><>::
 cookie.png::CompressedTexture2D::6305140784714310495::1730859489::1730869465::1::::<><>::
@@ -15,6 +16,7 @@ cookiePressed.png::CompressedTexture2D::2769696930712115761::1730859489::1730869
 ExamPaper.jpg::CompressedTexture2D::3253567653840026902::1730859489::1730869465::0::::<><>::
 kenvector_future_thin.ttf::FontFile::4801771343708007650::1731011080::1731011081::1::::<><>::
 menuBg.png::CompressedTexture2D::646440111678929511::1730859489::1730869465::1::::<><>::
+paperSFX.wav::AudioStreamWAV::1628070914347423570::1731012290::1731012311::1::::<><>::
 Screenshot 2024-11-05 at 2.25.00 PM.png::CompressedTexture2D::1620676056591800658::1730859489::1730869465::1::::<><>::
 Screenshot 2024-11-05 at 4.14.52 PM.png::CompressedTexture2D::5492587884095683381::1730859489::1730869466::1::::<><>::
 shopButton.png::CompressedTexture2D::1712497657526338848::1730859489::1730869465::1::::<><>::
