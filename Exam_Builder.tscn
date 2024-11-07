@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=3 uid="uid://bysb157o7r0pc"]
+
+[ext_resource type="Texture2D" uid="uid://dse6f2qd2ofjx" path="res://ClickerBilder/2211730843837_.pic.png" id="1_e2ltm"]
+[ext_resource type="Script" path="res://exam_builder.gd" id="1_ojhvj"]
+[ext_resource type="Texture2D" uid="uid://ckiwecxpqcdwn" path="res://ClickerBilder/Screenshot 2024-11-05 at 4.14.52 PM.png" id="2_klqv3"]
+[ext_resource type="Texture2D" uid="uid://dll3yeuq71ek2" path="res://ClickerBilder/smaller.png" id="3_8fukb"]
+[ext_resource type="Script" path="res://exam_paper.gd" id="6_7cp6j"]
+[ext_resource type="FontFile" uid="uid://caoaqcgqo71ik" path="res://ClickerBilder/kenvector_future_thin.ttf" id="6_tlujp"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nvfw1"]
+font = ExtResource("6_tlujp")
+font_size = 80
+font_color = Color(0.0196078, 0.92549, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_bm7i3"]
+font = ExtResource("6_tlujp")
+font_size = 38
+outline_size = 2
+shadow_size = 11
+
+[node name="ExamBuilder" type="Node2D"]
+script = ExtResource("1_ojhvj")
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="2211730843837_pic" type="Sprite2D" parent="UI"]
+position = Vector2(570, 381)
+scale = Vector2(1.31379, 1.31379)
+texture = ExtResource("1_e2ltm")
+
+[node name="ExamPaper" type="TextureButton" parent="UI"]
+offset_left = 560.0
+offset_top = 275.0
+offset_right = 2420.0
+offset_bottom = 2275.0
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("2_klqv3")
+texture_pressed = ExtResource("3_8fukb")
+script = ExtResource("6_7cp6j")
+
+[node name="Score Label" type="Label" parent="."]
+offset_left = 663.0
+offset_top = 187.0
+offset_right = 727.0
+offset_bottom = 244.0
+label_settings = SubResource("LabelSettings_nvfw1")
+
+[node name="Total" type="Label" parent="."]
+offset_left = 359.0
+offset_top = 215.0
+offset_right = 670.0
+offset_bottom = 270.0
+text = "Total Exams: "
+label_settings = SubResource("LabelSettings_bm7i3")
+
+[connection signal="pressed" from="UI/ExamPaper" to="." method="_on_exam_paper_pressed"]
+[connection signal="pressed" from="UI/ExamPaper" to="UI/ExamPaper" method="_on_pressed"]
