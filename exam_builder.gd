@@ -44,11 +44,11 @@ func move_enemy_toward_exam(enemy: Sprite2D, delta: float) -> void:
 	var exam_position = examButton.global_position
 	print("Moving enemy: ", enemy.name)
 	var direction = (exam_position - enemy.global_position).normalized()
-	enemy.position += direction * move_speed * delta
+	enemy.position += direction * move_speed * delta * randf_range(0.0,1.0)
 
 	if enemy.global_position.distance_to(exam_position) < 10:
 		print(enemy.name, " reached the exam icon.")
 		enemy.queue_free()  # Remove the enemy from the scene
 		enemies.erase(enemy)
-		increment_score -= 1
+		increment_score -= 10
 		score.text = str(increment_score)

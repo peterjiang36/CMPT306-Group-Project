@@ -83,17 +83,17 @@ shape = SubResource("RectangleShape2D_ogjl0")
 texture = ExtResource("2_un8bl")
 
 [node name="Enemy1" type="Sprite2D" parent="."]
-position = Vector2(1946, 563)
+position = Vector2(1896, 536)
 texture = ExtResource("10_6x1jn")
 flip_h = true
 
 [node name="Enemy2" type="Sprite2D" parent="."]
-position = Vector2(-186, 541)
+position = Vector2(-189, 577)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("11_po8mh")
 
 [node name="Enemy3" type="Sprite2D" parent="."]
-position = Vector2(129, 1052)
+position = Vector2(142, 1465)
 scale = Vector2(0.3, 0.3)
 texture = ExtResource("12_nygsk")
 
