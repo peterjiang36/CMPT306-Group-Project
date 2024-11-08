@@ -1,13 +1,17 @@
-[gd_scene load_steps=11 format=3 uid="uid://bysb157o7r0pc"]
+[gd_scene load_steps=16 format=3 uid="uid://bysb157o7r0pc"]
 
 [ext_resource type="Texture2D" uid="uid://dse6f2qd2ofjx" path="res://ClickerBilder/2211730843837_.pic.png" id="1_e2ltm"]
 [ext_resource type="Script" path="res://exam_builder.gd" id="1_ojhvj"]
-[ext_resource type="Texture2D" uid="uid://ckiwecxpqcdwn" path="res://ClickerBilder/Screenshot 2024-11-05 at 4.14.52 PM.png" id="2_klqv3"]
-[ext_resource type="Texture2D" uid="uid://dll3yeuq71ek2" path="res://ClickerBilder/smaller.png" id="3_8fukb"]
+[ext_resource type="Texture2D" uid="uid://cr7spvsdx6u08" path="res://icon.svg" id="2_un8bl"]
+[ext_resource type="Texture2D" uid="uid://bfk6b06i48mp0" path="res://ClickerBilder/ExamPaper.png" id="3_wxws0"]
+[ext_resource type="Texture2D" uid="uid://bx6p6dy3pw3qd" path="res://ClickerBilder/ExamPaper-S.png" id="4_jcph4"]
 [ext_resource type="Script" path="res://exam_paper.gd" id="6_7cp6j"]
 [ext_resource type="FontFile" uid="uid://caoaqcgqo71ik" path="res://ClickerBilder/kenvector_future_thin.ttf" id="6_tlujp"]
 [ext_resource type="AudioStream" uid="uid://xgwdcfdoafb3" path="res://ClickerBilder/paperSFX.wav" id="7_r1qgb"]
 [ext_resource type="AudioStream" uid="uid://dkavdunp1vl2v" path="res://ClickerBilder/bgMusic.wav" id="7_sp012"]
+[ext_resource type="Texture2D" uid="uid://bo8442iv82nbj" path="res://ClickerBilder/s1.webp" id="10_6x1jn"]
+[ext_resource type="Texture2D" uid="uid://qeysgc3bhgiw" path="res://ClickerBilder/s2.webp" id="11_po8mh"]
+[ext_resource type="Texture2D" uid="uid://rprr7g8mi853" path="res://ClickerBilder/s3.webp" id="12_nygsk"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_nvfw1"]
 font = ExtResource("6_tlujp")
@@ -19,6 +23,8 @@ font = ExtResource("6_tlujp")
 font_size = 38
 outline_size = 2
 shadow_size = 11
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ogjl0"]
 
 [node name="ExamBuilder" type="Node2D"]
 script = ExtResource("1_ojhvj")
@@ -32,29 +38,29 @@ scale = Vector2(1.31379, 1.31379)
 texture = ExtResource("1_e2ltm")
 
 [node name="ExamPaper" type="TextureButton" parent="UI"]
-offset_left = 526.0
-offset_top = 257.0
-offset_right = 2506.0
-offset_bottom = 2317.0
-scale = Vector2(0.1, 0.1)
-button_mask = 5
-texture_normal = ExtResource("2_klqv3")
-texture_pressed = ExtResource("3_8fukb")
+offset_left = 558.0
+offset_top = 262.0
+offset_right = 1605.0
+offset_bottom = 1522.0
+scale = Vector2(0.15, 0.15)
+action_mode = 0
+texture_normal = ExtResource("3_wxws0")
+texture_pressed = ExtResource("4_jcph4")
 stretch_mode = 3
 script = ExtResource("6_7cp6j")
 
 [node name="Score Label" type="Label" parent="."]
-offset_left = 720.0
-offset_top = 184.0
-offset_right = 784.0
-offset_bottom = 274.0
+offset_left = 691.0
+offset_top = 188.0
+offset_right = 755.0
+offset_bottom = 278.0
 label_settings = SubResource("LabelSettings_nvfw1")
 
 [node name="Total" type="Label" parent="."]
-offset_left = 416.0
-offset_top = 212.0
-offset_right = 727.0
-offset_bottom = 267.0
+offset_left = 387.0
+offset_top = 216.0
+offset_right = 698.0
+offset_bottom = 271.0
 text = "Total Exams: "
 label_settings = SubResource("LabelSettings_bm7i3")
 
@@ -65,6 +71,32 @@ autoplay = true
 
 [node name="PaperPressSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("7_r1qgb")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+visible = false
+position = Vector2(-17, 558)
+gravity_scale = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("RectangleShape2D_ogjl0")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+texture = ExtResource("2_un8bl")
+
+[node name="Enemy1" type="Sprite2D" parent="."]
+position = Vector2(1896, 536)
+texture = ExtResource("10_6x1jn")
+flip_h = true
+
+[node name="Enemy2" type="Sprite2D" parent="."]
+position = Vector2(-189, 577)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("11_po8mh")
+
+[node name="Enemy3" type="Sprite2D" parent="."]
+position = Vector2(142, 1465)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("12_nygsk")
 
 [connection signal="pressed" from="UI/ExamPaper" to="." method="_on_exam_paper_pressed"]
 [connection signal="pressed" from="UI/ExamPaper" to="UI/ExamPaper" method="_on_pressed"]

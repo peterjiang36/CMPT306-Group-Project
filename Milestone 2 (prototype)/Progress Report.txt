@@ -1,0 +1,28 @@
+Project: Incremental Game Prototype - Progress Report
+
+Overview:
+Since our project pitch, the team has made significant progress toward building a functional incremental game prototype inspired by Cookie Clicker. 
+We have implemented essential mechanics and discussed future enhancements, including upgrades, animations, and a unique "worm" feature to add challenge to the gameplay.
+
+Accomplishments:
+- Clickable Object Implementation: Developed a central clickable object that allows players to generate points with each click.
+- Point System: Established a system where points increase over time and can be boosted by clicking the main object.
+- Attacker Placeholder: Created a placeholder character for future upgrades that will attack the clickable object to reduce the PPS.
+
+Planned Features:
+- Art, Sound, and Animation: Implement visual assets, sound effects, and animations to enhance the player experience.
+- Upgrades: Introduce upgrade options that increase the PPS rate, allowing for progressive growth.
+- Student Attack Mechanic: Add an obstacle mechanic with "worms" that periodically attack the clickable object, reducing the PPS until addressed.
+
+Team Contributions:
+- Peter and Charles: Coding - Developed the click functionality, upgrade and attack placeholder and point increment system.
+- Amy: Project Management - Created a video to demonstrate game and prepared a burn-down chart.
+- Jarett: Conceptualization and Documentation - Contributed to concept development and created project documentation.
+
+Next Steps:
+- Implement upgrade functionality.
+- Develop the worm attack feature.
+- Design and integrate art, sound, and animations.
+- Refine UI and polish gameplay.
+
+This progress report summarizes the work completed since the project pitch and outlines future tasks as we move toward the beta submission stage.
