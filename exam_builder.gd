@@ -36,7 +36,7 @@ func _process(delta: float) -> void:
 
 func _on_exam_paper_pressed() -> void:
 	$PaperPressSound.play()
-	increment_score+=1
+	increment_score+=1 
 	score.text = str(increment_score)
 	
 	

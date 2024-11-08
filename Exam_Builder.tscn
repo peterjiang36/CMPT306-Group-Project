@@ -2,9 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://dse6f2qd2ofjx" path="res://ClickerBilder/2211730843837_.pic.png" id="1_e2ltm"]
 [ext_resource type="Script" path="res://exam_builder.gd" id="1_ojhvj"]
-[ext_resource type="Texture2D" uid="uid://ckiwecxpqcdwn" path="res://ClickerBilder/Screenshot 2024-11-05 at 4.14.52 PM.png" id="2_klqv3"]
 [ext_resource type="Texture2D" uid="uid://cr7spvsdx6u08" path="res://icon.svg" id="2_un8bl"]
-[ext_resource type="Texture2D" uid="uid://dll3yeuq71ek2" path="res://ClickerBilder/smaller.png" id="3_8fukb"]
+[ext_resource type="Texture2D" uid="uid://bfk6b06i48mp0" path="res://ClickerBilder/ExamPaper.png" id="3_wxws0"]
+[ext_resource type="Texture2D" uid="uid://bx6p6dy3pw3qd" path="res://ClickerBilder/ExamPaper-S.png" id="4_jcph4"]
 [ext_resource type="Script" path="res://exam_paper.gd" id="6_7cp6j"]
 [ext_resource type="FontFile" uid="uid://caoaqcgqo71ik" path="res://ClickerBilder/kenvector_future_thin.ttf" id="6_tlujp"]
 [ext_resource type="AudioStream" uid="uid://xgwdcfdoafb3" path="res://ClickerBilder/paperSFX.wav" id="7_r1qgb"]
@@ -38,13 +38,14 @@ scale = Vector2(1.31379, 1.31379)
 texture = ExtResource("1_e2ltm")
 
 [node name="ExamPaper" type="TextureButton" parent="UI"]
-offset_left = 560.0
-offset_top = 275.0
-offset_right = 2420.0
-offset_bottom = 2275.0
-scale = Vector2(0.1, 0.1)
-texture_normal = ExtResource("2_klqv3")
-texture_pressed = ExtResource("3_8fukb")
+offset_left = 644.0
+offset_top = 280.0
+offset_right = 1444.0
+offset_bottom = 1367.0
+scale = Vector2(0.15, 0.15)
+action_mode = 0
+texture_normal = ExtResource("3_wxws0")
+texture_pressed = ExtResource("4_jcph4")
 stretch_mode = 3
 script = ExtResource("6_7cp6j")
 
