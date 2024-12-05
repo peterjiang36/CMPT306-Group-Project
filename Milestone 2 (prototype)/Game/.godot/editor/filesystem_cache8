@@ -1,0 +1,32 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732950492
+control.tscn::PackedScene::1744146464259515829::1731031375::0::1::::<><>::
+exam_builder.gd::GDScript::-1::1732941651::0::1::::<>Node2D<>::
+Exam_Builder.tscn::PackedScene::4108220504027049900::1732941895::0::1::::<><>::uid://dse6f2qd2ofjx::::res://ClickerBilder/2211730843837_.pic.png<>res://exam_builder.gd<>uid://cr7spvsdx6u08::::res://icon.svg<>uid://cv3i0oe8pl41p::::res://ClickerBilder/cookie.png<>uid://bfpwrenadvp4d::::res://ClickerBilder/cookiePressed.png<>res://exam_paper.gd<>uid://caoaqcgqo71ik::::res://ClickerBilder/kenvector_future_thin.ttf<>uid://xgwdcfdoafb3::::res://ClickerBilder/paperSFX.wav<>uid://dkavdunp1vl2v::::res://ClickerBilder/bgMusic.wav<>uid://bo8442iv82nbj::::res://ClickerBilder/s1.webp<>uid://qeysgc3bhgiw::::res://ClickerBilder/s2.webp<>uid://rprr7g8mi853::::res://ClickerBilder/s3.webp
+exam_paper.gd::GDScript::-1::1731010113::0::1::::<>TextureButton<>::
+export_presets.cfg::TextFile::-1::1732943697::0::1::::<><>::
+icon.svg::CompressedTexture2D::6033232621106152203::1730859489::1731032868::1::::<><>::
+::res://ClickerBilder/::1732942812
+2211730843837_.pic.png::CompressedTexture2D::8432811346345678301::1730859489::1731032868::1::::<><>::
+bg.png::CompressedTexture2D::3465142351411581269::1730859489::1731032868::1::::<><>::
+bgMusic.wav::AudioStreamWAV::7862431972956012863::1731012750::1731032868::1::::<><>::
+BuyButton.png::CompressedTexture2D::2449589253464297164::1730859489::1731032868::1::::<><>::
+closeButton.png::CompressedTexture2D::380495450134657474::1730859489::1731032868::1::::<><>::
+Cookie Store Virtual Background.png::CompressedTexture2D::5153231503399844075::1732942370::1732950495::1::::<><>::
+cookie store.jpg::CompressedTexture2D::7128467114955488608::1732942045::1732950495::1::::<><>::
+cookie.png::CompressedTexture2D::6305140784714310495::1730859489::1731032868::1::::<><>::
+cookiePressed.png::CompressedTexture2D::2769696930712115761::1730859489::1731032868::1::::<><>::
+ExamPaper-S.png::CompressedTexture2D::4065726108184738611::1731031076::1731032868::1::::<><>::
+ExamPaper.png::CompressedTexture2D::2759894053369765087::1731030075::1731032868::1::::<><>::
+funny-retro-cartoon-illustration-cookie-600nw-2137659165.webp::CompressedTexture2D::733821990330867780::1732942797::1732950495::1::::<><>::
+kenvector_future_thin.ttf::FontFile::4801771343708007650::1731011080::1731032868::1::::<><>::
+menuBg.png::CompressedTexture2D::646440111678929511::1730859489::1731032868::1::::<><>::
+paperSFX.wav::AudioStreamWAV::1628070914347423570::1731012290::1731032868::1::::<><>::
+s1.webp::CompressedTexture2D::3439002972811204967::1731016193::1731032868::1::::<><>::
+s2.webp::CompressedTexture2D::1132768680844960774::1731016271::1731032868::1::::<><>::
+s3.webp::CompressedTexture2D::1225240247062650044::1731016402::1731032868::1::::<><>::
+Screenshot 2024-11-05 at 2.25.00 PM.png::CompressedTexture2D::1620676056591800658::1730859489::1731032868::1::::<><>::
+Screenshot 2024-11-05 at 4.14.52 PM.png::CompressedTexture2D::5492587884095683381::1730859489::1731032868::1::::<><>::
+shopButton.png::CompressedTexture2D::1712497657526338848::1730859489::1731032868::1::::<><>::
+SuperFunky-lgmWw.ttf::FontFile::7777578253655803851::1731011695::1731032868::1::::<><>::
+topBar.png::CompressedTexture2D::7601117872687571427::1730859489::1731032868::1::::<><>::

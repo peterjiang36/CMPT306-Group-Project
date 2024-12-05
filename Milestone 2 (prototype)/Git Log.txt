@@ -1,0 +1,111 @@
+commit 9e2f1c3d5a7b2e3c4d9a1b3e5f8c7d6a2b4c5e6f
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Nov 7 20:02:15 2024 -0600
+
+    Finalizing the folder
+
+commit 2a5c7b123f78d5e8b3c6a7d5a9e5c4b2a1f7e4c3
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Nov 7 20:00:01 2024 -0600
+
+    Fix the exam icon
+
+commit c9edb07d0e96e1b2731a4e9bdf7fffbdf6472978
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Thu Nov 7 19:28:02 2024 -0600
+
+    Update ExamPaper.jpg for in-game asset usage.
+
+
+commit 1a852316609372c34390b4f6ee7c5eabdc6bfaf2
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Thu Nov 7 17:37:01 2024 -0600
+
+    Implemented basic sound effects for background music
+
+commit 1ae3cff6c964b43ab05d3f888738b965a9920e12
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Thu Nov 7 15:09:02 2024 -0600
+
+    Implemented basic sound effects for click interactions.
+
+
+commit 6c11364544d96e9d682e26f91336dd1546568d05
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Tue Nov 5 20:33:02 2024 -0600
+
+    Reorganized file structure and created distinct folders for assets, scripts, and resources.
+
+
+commit ace34bd4bc9a119bc14a0a6a32215084e5003cd2
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Tue Nov 5 18:48:51 2024 -0600
+
+    Redesigned game structure following team feedback to enhance gameplay flow.
+
+
+commit dc0490d1e17d4951cdbf4fe19305321953dd2dae
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Mon Nov 4 21:06:04 2024 -0600
+
+    Change the speed of the automatic increment.
+
+commit 166e0ee78d7abdf067a4385a2f927f70b538ae5f
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Mon Nov 4 20:35:07 2024 -0600
+
+    Debug the character movement.
+
+commit 23b63812c99ea6f05c61d2b2f57eafc49a01ac7c
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Mon Nov 4 19:36:49 2024 -0600
+
+    Created the character movement for features in beta version
+
+commit 1af733d1dd24e8d55f6505d7272c64d67414e7e4
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Mon Nov 4 16:18:40 2024 -0600
+
+    Created basic Student instances for character representation.
+
+commit 5f9dbe2342ea4df3b4b3d72b4f87a451c6d7ab1a
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Sun Nov 3 15:52:22 2024 -0600
+
+    Change the style of scores and make the clickable exam paper centered
+
+commit b23ab4c236dd8c3f9b1e2f9b2d6c73e1e3d8e89a
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Sat Nov 2 18:10:05 2024 -0600
+
+    Added point increment function to handle clicks and display updated points.
+
+commit 7286e82a1b5b9c2d5f6e8d3e1e7c73a6f9d7e34a
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Sat Nov 2 15:43:47 2024 -0600
+
+    Basic UI elements added, including clickable button as Exam Papers and initial score display.
+
+commit d27a6b2d9a6e8b2e7c4a5f6a4d9f6a4c9e3b8d7e
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Oct 31 12:14:36 2024 -0600
+
+    Created ExamBuilder as the main scene.
+
+commit 646161447d81507cb8d9d590b1bbd779802cc266
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Tue Oct 15 19:10:19 2024 -0600
+
+    Game pitch document outlining concept and key features.
+
+commit 4cae7b9d950e1fb33f959498487a5f2dd0df41a6
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Oct 11 12:08:19 2024 -0600
+
+    Project PDF created with objectives, scope, and timeline.
+
+commit 630b4ecf5bb51979ae26aa88066b841b0e6bcc07
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Oct 11 12:00:00 2024 -0600
+
+    Initial project setup and repository creation.

@@ -1,0 +1,13 @@
+Team Contributions Summary:
+
+- Peter and Charles
+  - Role: Coding
+  - Tasks: Developed the click functionality, upgrade placeholder and point increment system.
+
+- Amy
+  - Role: Project Management
+  - Tasks: Created a video to demonstrate game and prepared a burn-down chart.
+
+- Jarett
+  - Role: Conceptualization and Documentation
+  - Tasks: Contributed to concept development and created project documentation.

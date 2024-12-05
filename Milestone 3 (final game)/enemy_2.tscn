@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu1c2y51ewvly"]
+
+[ext_resource type="Texture2D" uid="uid://qeysgc3bhgiw" path="res://ClickerBilder/s2.webp" id="1_lxc7t"]
+
+[node name="Enemy2" type="Sprite2D"]
+position = Vector2(-189, 577)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_lxc7t")

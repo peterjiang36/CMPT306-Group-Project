@@ -1,0 +1,38 @@
+[gd_scene load_steps=7 format=3 uid="uid://bh2cc7ivq8f42"]
+
+[ext_resource type="Texture2D" uid="uid://dse6f2qd2ofjx" path="res://ClickerBilder/2211730843837_.pic.png" id="1_e2ltm"]
+[ext_resource type="PackedScene" uid="uid://vdtow8iopisp" path="res://Scenes/control.tscn" id="1_l4yas"]
+[ext_resource type="Script" path="res://exam_builder.gd" id="1_ojhvj"]
+[ext_resource type="Texture2D" uid="uid://ckiwecxpqcdwn" path="res://ClickerBilder/Screenshot 2024-11-05 at 4.14.52 PM.png" id="2_klqv3"]
+[ext_resource type="Texture2D" uid="uid://dll3yeuq71ek2" path="res://ClickerBilder/smaller.png" id="3_8fukb"]
+[ext_resource type="Script" path="res://exam_paper.gd" id="6_7cp6j"]
+
+[node name="ExamBuilder" type="Node2D"]
+script = ExtResource("1_ojhvj")
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="2211730843837_pic" type="Sprite2D" parent="UI"]
+position = Vector2(570, 381)
+scale = Vector2(1.31379, 1.31379)
+texture = ExtResource("1_e2ltm")
+
+[node name="Control" parent="UI" instance=ExtResource("1_l4yas")]
+offset_left = 321.0
+offset_top = 183.0
+offset_right = 404.0
+offset_bottom = 260.0
+script = null
+
+[node name="Exam Paper" type="TextureButton" parent="UI"]
+offset_left = 330.0
+offset_top = 245.0
+offset_right = 2190.0
+offset_bottom = 2245.0
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("2_klqv3")
+texture_pressed = ExtResource("3_8fukb")
+script = ExtResource("6_7cp6j")
+
+[connection signal="button_down" from="UI/Exam Paper" to="UI/Exam Paper" method="_on_button_down"]
