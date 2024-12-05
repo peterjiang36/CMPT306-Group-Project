@@ -1,10 +1,10 @@
-[gd_scene load_steps=16 format=3 uid="uid://bysb157o7r0pc"]
+[gd_scene load_steps=17 format=3 uid="uid://bysb157o7r0pc"]
 
-[ext_resource type="Texture2D" uid="uid://dse6f2qd2ofjx" path="res://ClickerBilder/2211730843837_.pic.png" id="1_e2ltm"]
 [ext_resource type="Script" path="res://exam_builder.gd" id="1_ojhvj"]
+[ext_resource type="Texture2D" uid="uid://cfoi78jqocfmp" path="res://ClickerBilder/Cookie Store Virtual Background.png" id="2_iislw"]
 [ext_resource type="Texture2D" uid="uid://cr7spvsdx6u08" path="res://icon.svg" id="2_un8bl"]
-[ext_resource type="Texture2D" uid="uid://bfk6b06i48mp0" path="res://ClickerBilder/ExamPaper.png" id="3_wxws0"]
-[ext_resource type="Texture2D" uid="uid://bx6p6dy3pw3qd" path="res://ClickerBilder/ExamPaper-S.png" id="4_jcph4"]
+[ext_resource type="Texture2D" uid="uid://kpp6802oyvui" path="res://ClickerBilder/funny-retro-cartoon-illustration-cookie-600nw-2137659165.webp" id="3_686a2"]
+[ext_resource type="Texture2D" uid="uid://bfpwrenadvp4d" path="res://ClickerBilder/cookiePressed.png" id="4_pxivx"]
 [ext_resource type="Script" path="res://exam_paper.gd" id="6_7cp6j"]
 [ext_resource type="FontFile" uid="uid://caoaqcgqo71ik" path="res://ClickerBilder/kenvector_future_thin.ttf" id="6_tlujp"]
 [ext_resource type="AudioStream" uid="uid://xgwdcfdoafb3" path="res://ClickerBilder/paperSFX.wav" id="7_r1qgb"]
@@ -16,15 +16,19 @@
 [sub_resource type="LabelSettings" id="LabelSettings_nvfw1"]
 font = ExtResource("6_tlujp")
 font_size = 80
-font_color = Color(0.0196078, 0.92549, 0, 1)
+font_color = Color(0.93, 0, 0.031, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_bm7i3"]
 font = ExtResource("6_tlujp")
 font_size = 38
+font_color = Color(0.45, 0.1575, 0.1575, 0.988235)
 outline_size = 2
 shadow_size = 11
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ogjl0"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_a4fsk"]
+font_color = Color(0.97, 0.2328, 0.2328, 1)
 
 [node name="ExamBuilder" type="Node2D"]
 script = ExtResource("1_ojhvj")
@@ -33,35 +37,36 @@ script = ExtResource("1_ojhvj")
 layer = -1
 
 [node name="2211730843837_pic" type="Sprite2D" parent="UI"]
-position = Vector2(570, 381)
-scale = Vector2(1.31379, 1.31379)
-texture = ExtResource("1_e2ltm")
+position = Vector2(569.941, 316.888)
+scale = Vector2(0.59277, 0.587244)
+texture = ExtResource("2_iislw")
 
 [node name="ExamPaper" type="TextureButton" parent="UI"]
-offset_left = 558.0
-offset_top = 262.0
-offset_right = 1605.0
-offset_bottom = 1522.0
+offset_left = 299.0
+offset_top = 223.0
+offset_right = 1759.0
+offset_bottom = 1476.0
 scale = Vector2(0.15, 0.15)
 action_mode = 0
-texture_normal = ExtResource("3_wxws0")
-texture_pressed = ExtResource("4_jcph4")
+button_mask = 0
+texture_normal = ExtResource("3_686a2")
+texture_pressed = ExtResource("4_pxivx")
 stretch_mode = 3
 script = ExtResource("6_7cp6j")
 
 [node name="Score Label" type="Label" parent="."]
-offset_left = 691.0
-offset_top = 188.0
-offset_right = 755.0
-offset_bottom = 278.0
+offset_left = 446.0
+offset_top = 180.0
+offset_right = 510.0
+offset_bottom = 270.0
 label_settings = SubResource("LabelSettings_nvfw1")
 
 [node name="Total" type="Label" parent="."]
-offset_left = 387.0
-offset_top = 216.0
-offset_right = 698.0
-offset_bottom = 271.0
-text = "Total Exams: "
+offset_left = 115.0
+offset_top = 208.0
+offset_right = 445.0
+offset_bottom = 263.0
+text = "Total Cookies: "
 label_settings = SubResource("LabelSettings_bm7i3")
 
 [node name="BG-Music" type="AudioStreamPlayer2D" parent="."]
@@ -84,19 +89,28 @@ shape = SubResource("RectangleShape2D_ogjl0")
 texture = ExtResource("2_un8bl")
 
 [node name="Enemy1" type="Sprite2D" parent="."]
-position = Vector2(1896, 536)
+position = Vector2(1505, 560)
+scale = Vector2(0.83, 0.9)
 texture = ExtResource("10_6x1jn")
 flip_h = true
 
 [node name="Enemy2" type="Sprite2D" parent="."]
-position = Vector2(-189, 577)
-scale = Vector2(0.2, 0.2)
+position = Vector2(-210, 562)
+scale = Vector2(0.157143, 0.169388)
 texture = ExtResource("11_po8mh")
 
 [node name="Enemy3" type="Sprite2D" parent="."]
-position = Vector2(142, 1465)
-scale = Vector2(0.3, 0.3)
+position = Vector2(367, 909)
+scale = Vector2(0.36, 0.3525)
 texture = ExtResource("12_nygsk")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 848.0
+offset_top = 4.0
+offset_right = 1129.0
+offset_bottom = 27.0
+text = "Designed and Created by Peter Jiang"
+label_settings = SubResource("LabelSettings_a4fsk")
 
 [connection signal="pressed" from="UI/ExamPaper" to="." method="_on_exam_paper_pressed"]
 [connection signal="pressed" from="UI/ExamPaper" to="UI/ExamPaper" method="_on_pressed"]
