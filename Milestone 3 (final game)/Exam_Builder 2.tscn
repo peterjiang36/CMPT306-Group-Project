@@ -1,0 +1,414 @@
+[gd_scene load_steps=32 format=3 uid="uid://bysb157o7r0pc"]
+
+[ext_resource type="Texture2D" uid="uid://dse6f2qd2ofjx" path="res://ClickerBilder/2211730843837_.pic.png" id="1_e2ltm"]
+[ext_resource type="Script" path="res://exam_builder.gd" id="1_ojhvj"]
+[ext_resource type="Texture2D" uid="uid://cr7spvsdx6u08" path="res://icon.svg" id="2_un8bl"]
+[ext_resource type="Texture2D" uid="uid://bfk6b06i48mp0" path="res://ClickerBilder/ExamPaper.png" id="3_wxws0"]
+[ext_resource type="Texture2D" uid="uid://bx6p6dy3pw3qd" path="res://ClickerBilder/ExamPaper-S.png" id="4_jcph4"]
+[ext_resource type="Script" path="res://exam_paper.gd" id="6_7cp6j"]
+[ext_resource type="Texture2D" uid="uid://ds7fsgx6pay3n" path="res://Button_img/Surp_big.png" id="6_eos4g"]
+[ext_resource type="Texture2D" uid="uid://ckg21jjmirmx6" path="res://Button_img/blue-Big.png" id="6_rju8f"]
+[ext_resource type="FontFile" uid="uid://caoaqcgqo71ik" path="res://ClickerBilder/kenvector_future_thin.ttf" id="6_tlujp"]
+[ext_resource type="Texture2D" uid="uid://d32vjemlk2mpx" path="res://Button_img/blue-small.png" id="7_5qbpa"]
+[ext_resource type="Texture2D" uid="uid://cedcofxhx727t" path="res://Button_img/Surp_small.png" id="7_fokyf"]
+[ext_resource type="AudioStream" uid="uid://xgwdcfdoafb3" path="res://ClickerBilder/paperSFX.wav" id="7_r1qgb"]
+[ext_resource type="AudioStream" uid="uid://dkavdunp1vl2v" path="res://ClickerBilder/bgMusic.wav" id="7_sp012"]
+[ext_resource type="Texture2D" uid="uid://m3yup0kclf02" path="res://Button_img/Green-small.png" id="8_if22l"]
+[ext_resource type="Texture2D" uid="uid://c2yeo65tc88us" path="res://Button_img/green-big.png" id="9_xealw"]
+[ext_resource type="PackedScene" uid="uid://dul62d0rvalm6" path="res://enemy_1.tscn" id="10_lofhd"]
+[ext_resource type="PackedScene" uid="uid://bu1c2y51ewvly" path="res://enemy_2.tscn" id="11_qochn"]
+[ext_resource type="PackedScene" uid="uid://bkxrml2mw0f68" path="res://enemy_3.tscn" id="12_tc8py"]
+[ext_resource type="Texture2D" uid="uid://dgmpw0i8d1bjt" path="res://Button_img/new-Red-big.png" id="13_pluw3"]
+[ext_resource type="Texture2D" uid="uid://xnjt3amvl8tb" path="res://Button_img/new-red-small.png" id="14_wrver"]
+[ext_resource type="AudioStream" uid="uid://c662jtmbce0ix" path="res://Sounds/Enemy_Touch_Exam_Sound.wav" id="15_6lmqv"]
+[ext_resource type="AudioStream" uid="uid://drcalmdngsm86" path="res://Sounds/Lost_game.wav" id="15_7xkw7"]
+[ext_resource type="AudioStream" uid="uid://cgjdb3o0rjoln" path="res://Sounds/Final_Upgrade_Sound.wav" id="15_ak2l5"]
+[ext_resource type="AudioStream" uid="uid://dqk78shtai8oa" path="res://Sounds/Surprise_Me_Sound.mp3" id="15_aqcce"]
+[ext_resource type="AudioStream" uid="uid://hx4lr51sf2w2" path="res://Sounds/1st_2nd_Upgrade_Sound.wav" id="16_40anf"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nvfw1"]
+font = ExtResource("6_tlujp")
+font_size = 80
+font_color = Color(0.0196078, 0.92549, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_bm7i3"]
+font = ExtResource("6_tlujp")
+font_size = 38
+outline_size = 2
+shadow_size = 11
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ogjl0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_31ipr"]
+size = Vector2(213.333, 400)
+
+[sub_resource type="LabelSettings" id="LabelSettings_22413"]
+font = ExtResource("6_tlujp")
+font_size = 100
+font_color = Color(1, 0, 0.607843, 1)
+outline_size = 36
+shadow_size = 13
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1o4fl"]
+content_margin_left = 15.0
+content_margin_top = 15.0
+bg_color = Color(0.673669, 0.524439, 0.815808, 1)
+corner_radius_top_right = 10
+
+[node name="ExamBuilder" type="Node2D"]
+script = ExtResource("1_ojhvj")
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="BG" type="Sprite2D" parent="UI"]
+position = Vector2(570, 381)
+scale = Vector2(1.31379, 1.31379)
+texture = ExtResource("1_e2ltm")
+
+[node name="ExamPaper" type="TextureButton" parent="UI"]
+offset_left = 644.0
+offset_top = 280.0
+offset_right = 1444.0
+offset_bottom = 1367.0
+scale = Vector2(0.15, 0.15)
+action_mode = 0
+texture_normal = ExtResource("3_wxws0")
+texture_pressed = ExtResource("4_jcph4")
+stretch_mode = 3
+script = ExtResource("6_7cp6j")
+
+[node name="Surprise" type="TextureButton" parent="UI"]
+offset_left = 426.0
+offset_top = 307.0
+offset_right = 1226.0
+offset_bottom = 1321.0
+scale = Vector2(0.15, 0.15)
+action_mode = 0
+texture_normal = ExtResource("6_eos4g")
+texture_pressed = ExtResource("7_fokyf")
+stretch_mode = 3
+script = ExtResource("6_7cp6j")
+
+[node name="Upgrade1" type="TextureButton" parent="UI"]
+offset_left = 309.0
+offset_top = 467.0
+offset_right = 1089.0
+offset_bottom = 1388.0
+scale = Vector2(0.15, 0.15)
+action_mode = 0
+texture_normal = ExtResource("7_5qbpa")
+texture_pressed = ExtResource("6_rju8f")
+stretch_mode = 3
+script = ExtResource("6_7cp6j")
+
+[node name="Cost1" type="Label" parent="UI/Upgrade1"]
+layout_mode = 0
+offset_left = 59.9999
+offset_top = 606.666
+offset_right = 663.0
+offset_bottom = 719.666
+theme_override_colors/font_color = Color(0.956863, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "-50 exams"
+
+[node name="New_Ability1" type="Label" parent="UI/Upgrade1"]
+layout_mode = 0
+offset_left = 59.9999
+offset_top = 946.666
+offset_right = 599.0
+offset_bottom = 1083.67
+theme_override_colors/font_color = Color(0, 0.602061, 0.445249, 1)
+theme_override_font_sizes/font_size = 100
+text = "Auto + 10%"
+
+[node name="click" type="Label" parent="UI/Upgrade1"]
+layout_mode = 0
+offset_left = 59.9999
+offset_top = 1053.33
+offset_right = 595.0
+offset_bottom = 1190.33
+theme_override_colors/font_color = Color(0, 0.602061, 0.445249, 1)
+theme_override_font_sizes/font_size = 100
+text = "Click + 10%"
+
+[node name="click2" type="Label" parent="UI/Upgrade1"]
+layout_mode = 0
+offset_left = 66.6666
+offset_top = 720.0
+offset_right = 1022.67
+offset_bottom = 857.0
+theme_override_colors/font_color = Color(0.953431, 0, 0.149391, 1)
+theme_override_font_sizes/font_size = 100
+text = "Enemy Speed + 10%"
+
+[node name="click3" type="Label" parent="UI/Upgrade1"]
+layout_mode = 0
+offset_left = 59.9999
+offset_top = 833.333
+offset_right = 1016.0
+offset_bottom = 970.333
+theme_override_colors/font_color = Color(0.953431, 0, 0.149391, 1)
+theme_override_font_sizes/font_size = 100
+text = "Enemy Steal + 10%"
+
+[node name="Upgrade2" type="TextureButton" parent="UI"]
+offset_left = 505.0
+offset_top = 459.0
+offset_right = 1305.0
+offset_bottom = 1473.0
+scale = Vector2(0.15, 0.15)
+action_mode = 0
+texture_normal = ExtResource("9_xealw")
+texture_pressed = ExtResource("8_if22l")
+stretch_mode = 3
+script = ExtResource("6_7cp6j")
+
+[node name="click4" type="Label" parent="UI/Upgrade2"]
+layout_mode = 0
+offset_left = 46.6668
+offset_top = 766.667
+offset_right = 1002.67
+offset_bottom = 903.667
+theme_override_colors/font_color = Color(0.953431, 0, 0.149391, 1)
+theme_override_font_sizes/font_size = 100
+text = "Enemy Speed + 20%"
+
+[node name="click5" type="Label" parent="UI/Upgrade2"]
+layout_mode = 0
+offset_left = 46.6668
+offset_top = 873.334
+offset_right = 1002.67
+offset_bottom = 1010.33
+theme_override_colors/font_color = Color(0.953431, 0, 0.149391, 1)
+theme_override_font_sizes/font_size = 100
+text = "Enemy Steal + 20%"
+
+[node name="Cost2" type="Label" parent="UI/Upgrade2"]
+layout_mode = 0
+offset_left = 60.0032
+offset_top = 653.333
+offset_right = 604.003
+offset_bottom = 790.333
+theme_override_colors/font_color = Color(0.956863, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "-200 exams"
+
+[node name="Click" type="Label" parent="UI/Upgrade2"]
+layout_mode = 0
+offset_left = 46.6667
+offset_top = 1106.67
+offset_right = 581.667
+offset_bottom = 1243.67
+theme_override_colors/font_color = Color(0, 0.602061, 0.445249, 1)
+theme_override_font_sizes/font_size = 100
+text = "Click + 30%"
+
+[node name="New_Ability2" type="Label" parent="UI/Upgrade2"]
+layout_mode = 0
+offset_left = 53.3333
+offset_top = 1000.0
+offset_right = 592.333
+offset_bottom = 1137.0
+theme_override_colors/font_color = Color(0, 0.602061, 0.445249, 1)
+theme_override_font_sizes/font_size = 100
+text = "Auto + 30%"
+
+[node name="Upgrade3" type="TextureButton" parent="UI"]
+offset_left = 699.0
+offset_top = 459.0
+offset_right = 1709.0
+offset_bottom = 1473.0
+scale = Vector2(0.15, 0.15)
+action_mode = 0
+texture_normal = ExtResource("13_pluw3")
+texture_pressed = ExtResource("14_wrver")
+stretch_mode = 3
+script = ExtResource("6_7cp6j")
+
+[node name="Cost3" type="Label" parent="UI/Upgrade3"]
+layout_mode = 0
+offset_left = 0.00321865
+offset_top = 680.0
+offset_right = 817.004
+offset_bottom = 885.0
+theme_override_colors/font_color = Color(0.956863, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "-500 exams"
+
+[node name="click6" type="Label" parent="UI/Upgrade3"]
+layout_mode = 0
+offset_left = 0.000163078
+offset_top = 786.667
+offset_right = 956.0
+offset_bottom = 923.667
+theme_override_colors/font_color = Color(0.953431, 0, 0.149391, 1)
+theme_override_font_sizes/font_size = 100
+text = "Enemy Speed + 30%"
+
+[node name="click7" type="Label" parent="UI/Upgrade3"]
+layout_mode = 0
+offset_left = 0.000163078
+offset_top = 893.333
+offset_right = 956.0
+offset_bottom = 1030.33
+theme_override_colors/font_color = Color(0.953431, 0, 0.149391, 1)
+theme_override_font_sizes/font_size = 100
+text = "Enemy Steal + 30%"
+
+[node name="Click" type="Label" parent="UI/Upgrade3"]
+layout_mode = 0
+offset_left = 0.336589
+offset_top = 1113.0
+offset_right = 535.337
+offset_bottom = 1250.0
+theme_override_colors/font_color = Color(0, 0.602061, 0.445249, 1)
+theme_override_font_sizes/font_size = 100
+text = "Click + 50%"
+
+[node name="New_Ability3" type="Label" parent="UI/Upgrade3"]
+layout_mode = 0
+offset_left = 6.33659
+offset_top = 1000.0
+offset_right = 545.337
+offset_bottom = 1137.0
+theme_override_colors/font_color = Color(0, 0.602061, 0.445249, 1)
+theme_override_font_sizes/font_size = 100
+text = "Auto + 50%"
+
+[node name="Score Label" type="Label" parent="."]
+offset_left = 663.0
+offset_top = 187.0
+offset_right = 727.0
+offset_bottom = 244.0
+label_settings = SubResource("LabelSettings_nvfw1")
+
+[node name="Total" type="Label" parent="."]
+offset_left = 359.0
+offset_top = 215.0
+offset_right = 670.0
+offset_bottom = 270.0
+text = "Total Exams: "
+label_settings = SubResource("LabelSettings_bm7i3")
+
+[node name="Final_Upgrade" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(872, 498)
+scale = Vector2(0.15, 0.15)
+stream = ExtResource("15_ak2l5")
+
+[node name="NormalUpgrade" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(872, 498)
+scale = Vector2(0.15, 0.15)
+stream = ExtResource("16_40anf")
+
+[node name="Surprise" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_aqcce")
+
+[node name="upgrade_sound" type="AudioStreamPlayer2D" parent="."]
+
+[node name="Game_Over" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_7xkw7")
+
+[node name="enemy_Touch_Paper" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_6lmqv")
+
+[node name="BG-Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_sp012")
+volume_db = -10.896
+autoplay = true
+
+[node name="PaperPressSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_r1qgb")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+visible = false
+position = Vector2(-17, 558)
+gravity_scale = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("RectangleShape2D_ogjl0")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+texture = ExtResource("2_un8bl")
+
+[node name="Enemy1" parent="." instance=ExtResource("10_lofhd")]
+
+[node name="Area2D" type="Area2D" parent="Enemy1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy1/Area2D"]
+position = Vector2(4.5, -7)
+shape = SubResource("RectangleShape2D_31ipr")
+
+[node name="Enemy2" parent="." instance=ExtResource("11_qochn")]
+
+[node name="Area2D" type="Area2D" parent="Enemy2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy2/Area2D"]
+position = Vector2(-22.4998, -40)
+shape = SubResource("RectangleShape2D_31ipr")
+
+[node name="Enemy3" parent="." instance=ExtResource("12_tc8py")]
+
+[node name="Area2D" type="Area2D" parent="Enemy3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy3/Area2D"]
+position = Vector2(-16.6667, 3.3335)
+shape = SubResource("RectangleShape2D_31ipr")
+
+[node name="DarkOverlay" type="ColorRect" parent="."]
+visible = false
+offset_left = -122.0
+offset_top = -36.0
+offset_right = 1246.0
+offset_bottom = 669.0
+color = Color(0, 0, 0, 0.364706)
+
+[node name="GameOverLabel" type="Label" parent="."]
+visible = false
+offset_left = 394.0
+offset_top = 161.0
+offset_right = 893.0
+offset_bottom = 506.0
+text = " opps!
+ Exams
+Ran Out"
+label_settings = SubResource("LabelSettings_22413")
+
+[node name="Retry" type="Button" parent="."]
+visible = false
+offset_left = 428.0
+offset_top = 504.0
+offset_right = 758.0
+offset_bottom = 593.0
+theme_override_font_sizes/font_size = 55
+text = "Retry"
+
+[node name="StartButton" type="Button" parent="."]
+offset_left = 364.0
+offset_top = 180.0
+offset_right = 786.0
+offset_bottom = 287.0
+theme_override_font_sizes/font_size = 55
+text = "Fire Exams!"
+
+[node name="Tutorial" type="Label" parent="."]
+visible = false
+offset_left = 312.0
+offset_top = 448.0
+offset_right = 858.0
+offset_bottom = 644.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_1o4fl")
+text = "Instructions:
+Click the exam till you mouse is on fire.
+Be-careful, students will steal your exams.
+Exam less than 0 --------> You Out!"
+
+[connection signal="pressed" from="UI/ExamPaper" to="." method="_on_exam_paper_pressed"]
+[connection signal="pressed" from="UI/Surprise" to="." method="_on_surprise_pressed"]
+[connection signal="pressed" from="UI/Upgrade1" to="." method="_on_upgrade_1_pressed"]
+[connection signal="pressed" from="UI/Upgrade2" to="." method="_on_upgrade_2_pressed"]
+[connection signal="pressed" from="UI/Upgrade3" to="." method="_on_upgrade_3_pressed"]
+[connection signal="pressed" from="Retry" to="." method="_on_retry_button_pressed"]
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]

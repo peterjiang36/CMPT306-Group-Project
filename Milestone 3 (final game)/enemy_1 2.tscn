@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dul62d0rvalm6"]
+
+[ext_resource type="Texture2D" uid="uid://bo8442iv82nbj" path="res://ClickerBilder/s1.webp" id="1_nk12v"]
+
+[node name="Enemy1" type="Sprite2D"]
+position = Vector2(1896, 536)
+texture = ExtResource("1_nk12v")
+flip_h = true
