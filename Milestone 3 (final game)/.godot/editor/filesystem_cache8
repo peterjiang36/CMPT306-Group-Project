@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733384436
-area_2d_Enemy1 2.gd::GDScript::-1::1733366080::0::1::::<>Area2D<>::
+::res://::1733385216
+area_2d_Enemy1 2.gd::GDScript::-1::1733385147::0::1::::<>Area2D<>::
 area_2d_Enemy1.gd::GDScript::-1::1733384185::0::1::::<>Area2D<>::
 control 2.tscn::PackedScene::1744146464259515829::1732916750::0::1::::<><>::
 control.tscn::PackedScene::1744146464259515829::1733384185::0::1::::<><>::
@@ -10,19 +10,19 @@ enemy_2 2.tscn::PackedScene::3844042336572359698::1732916127::0::1::::<><>::uid:
 enemy_2.tscn::PackedScene::3844042336572359698::1733384185::0::1::::<><>::uid://qeysgc3bhgiw::::res://ClickerBilder/s2.webp
 enemy_3 2.tscn::PackedScene::3136844046862873147::1732916132::0::1::::<><>::uid://rprr7g8mi853::::res://ClickerBilder/s3.webp
 enemy_3.tscn::PackedScene::3136844046862873147::1733384185::0::1::::<><>::uid://rprr7g8mi853::::res://ClickerBilder/s3.webp
-exam_builder 2.gd::GDScript::-1::1733383170::0::1::::<>Node2D<>::
+exam_builder 2.gd::GDScript::-1::1733385147::0::1::::<>Node2D<>::
 Exam_Builder 2.tscn::PackedScene::4108220504027049900::1733383243::0::1::::<><>::uid://dse6f2qd2ofjx::::res://ClickerBilder/2211730843837_.pic.png<>res://exam_builder.gd<>uid://cr7spvsdx6u08::::res://icon.svg<>uid://bfk6b06i48mp0::::res://ClickerBilder/ExamPaper.png<>uid://bx6p6dy3pw3qd::::res://ClickerBilder/ExamPaper-S.png<>res://exam_paper.gd<>uid://ds7fsgx6pay3n::::res://Button_img/Surp_big.png<>uid://ckg21jjmirmx6::::res://Button_img/blue-Big.png<>uid://caoaqcgqo71ik::::res://ClickerBilder/kenvector_future_thin.ttf<>uid://d32vjemlk2mpx::::res://Button_img/blue-small.png<>uid://cedcofxhx727t::::res://Button_img/Surp_small.png<>uid://xgwdcfdoafb3::::res://ClickerBilder/paperSFX.wav<>uid://dkavdunp1vl2v::::res://ClickerBilder/bgMusic.wav<>uid://m3yup0kclf02::::res://Button_img/Green-small.png<>uid://c2yeo65tc88us::::res://Button_img/green-big.png<>uid://dul62d0rvalm6::::res://enemy_1.tscn<>uid://bu1c2y51ewvly::::res://enemy_2.tscn<>uid://bkxrml2mw0f68::::res://enemy_3.tscn<>uid://dgmpw0i8d1bjt::::res://Button_img/new-Red-big.png<>uid://xnjt3amvl8tb::::res://Button_img/new-red-small.png<>uid://c662jtmbce0ix::::res://Sounds/Enemy_Touch_Exam_Sound.wav<>uid://drcalmdngsm86::::res://Sounds/Lost_game.wav<>uid://cgjdb3o0rjoln::::res://Sounds/Final_Upgrade_Sound.wav<>uid://dqk78shtai8oa::::res://Sounds/Surprise_Me_Sound.mp3<>uid://hx4lr51sf2w2::::res://Sounds/1st_2nd_Upgrade_Sound.wav
 exam_builder.gd::GDScript::-1::1733384185::0::1::::<>Node2D<>::
-Exam_Builder.tscn::PackedScene::4108220504027049900::1733384185::0::1::::<><>::uid://dse6f2qd2ofjx::::res://ClickerBilder/2211730843837_.pic.png<>res://exam_builder.gd<>uid://cr7spvsdx6u08::::res://icon.svg<>uid://bfk6b06i48mp0::::res://ClickerBilder/ExamPaper.png<>uid://bx6p6dy3pw3qd::::res://ClickerBilder/ExamPaper-S.png<>res://exam_paper.gd<>uid://ds7fsgx6pay3n::::res://Button_img/Surp_big.png<>uid://ckg21jjmirmx6::::res://Button_img/blue-Big.png<>uid://caoaqcgqo71ik::::res://ClickerBilder/kenvector_future_thin.ttf<>uid://d32vjemlk2mpx::::res://Button_img/blue-small.png<>uid://cedcofxhx727t::::res://Button_img/Surp_small.png<>uid://xgwdcfdoafb3::::res://ClickerBilder/paperSFX.wav<>uid://dkavdunp1vl2v::::res://ClickerBilder/bgMusic.wav<>uid://m3yup0kclf02::::res://Button_img/Green-small.png<>uid://c2yeo65tc88us::::res://Button_img/green-big.png<>uid://dul62d0rvalm6::::res://enemy_1.tscn<>uid://bu1c2y51ewvly::::res://enemy_2.tscn<>uid://bkxrml2mw0f68::::res://enemy_3.tscn<>uid://dgmpw0i8d1bjt::::res://Button_img/new-Red-big.png<>uid://xnjt3amvl8tb::::res://Button_img/new-red-small.png<>uid://c662jtmbce0ix::::res://Sounds/Enemy_Touch_Exam_Sound.wav<>uid://drcalmdngsm86::::res://Sounds/Lost_game.wav<>uid://cgjdb3o0rjoln::::res://Sounds/Final_Upgrade_Sound.wav<>uid://dqk78shtai8oa::::res://Sounds/Surprise_Me_Sound.mp3<>uid://hx4lr51sf2w2::::res://Sounds/1st_2nd_Upgrade_Sound.wav
-exam_paper 2.gd::GDScript::-1::1731094138::0::1::::<>TextureButton<>::
+Exam_Builder.tscn::PackedScene::4108220504027049900::1733384740::0::1::::<><>::uid://dse6f2qd2ofjx::::res://ClickerBilder/2211730843837_.pic.png<>res://exam_builder.gd<>uid://cr7spvsdx6u08::::res://icon.svg<>uid://bfk6b06i48mp0::::res://ClickerBilder/ExamPaper.png<>uid://bx6p6dy3pw3qd::::res://ClickerBilder/ExamPaper-S.png<>res://exam_paper.gd<>uid://ds7fsgx6pay3n::::res://Button_img/Surp_big.png<>uid://ckg21jjmirmx6::::res://Button_img/blue-Big.png<>uid://caoaqcgqo71ik::::res://ClickerBilder/kenvector_future_thin.ttf<>uid://d32vjemlk2mpx::::res://Button_img/blue-small.png<>uid://cedcofxhx727t::::res://Button_img/Surp_small.png<>uid://xgwdcfdoafb3::::res://ClickerBilder/paperSFX.wav<>uid://dkavdunp1vl2v::::res://ClickerBilder/bgMusic.wav<>uid://m3yup0kclf02::::res://Button_img/Green-small.png<>uid://c2yeo65tc88us::::res://Button_img/green-big.png<>uid://dul62d0rvalm6::::res://enemy_1.tscn<>uid://bu1c2y51ewvly::::res://enemy_2.tscn<>uid://bkxrml2mw0f68::::res://enemy_3.tscn<>uid://dgmpw0i8d1bjt::::res://Button_img/new-Red-big.png<>uid://xnjt3amvl8tb::::res://Button_img/new-red-small.png<>uid://c662jtmbce0ix::::res://Sounds/Enemy_Touch_Exam_Sound.wav<>uid://drcalmdngsm86::::res://Sounds/Lost_game.wav<>uid://cgjdb3o0rjoln::::res://Sounds/Final_Upgrade_Sound.wav<>uid://dqk78shtai8oa::::res://Sounds/Surprise_Me_Sound.mp3<>uid://hx4lr51sf2w2::::res://Sounds/1st_2nd_Upgrade_Sound.wav
+exam_paper 2.gd::GDScript::-1::1733385147::0::1::::<>TextureButton<>::
 exam_paper.gd::GDScript::-1::1733384185::0::1::::<>TextureButton<>::
 export_presets 2.cfg::TextFile::-1::1732929813::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1733384185::0::1::::<><>::
 git-log 2.txt::TextFile::-1::1731094138::0::1::::<><>::
 git-log.txt::TextFile::-1::1733384185::0::1::::<><>::
-icon 2.svg::CompressedTexture2D::2150619147074360482::1731094138::1733384438::1::::<><>::
+icon 2.svg::CompressedTexture2D::2150619147074360482::1733385147::1733386344::1::::<><>::
 icon.svg::CompressedTexture2D::6033232621106152203::1733384185::1733384438::1::::<><>::
-::res://Button_img/::1733384224
+::res://Button_img/::1733384438
 blue-Big.png::CompressedTexture2D::5488802346907096101::1733384185::1733384438::1::::<><>::
 blue-small.png::CompressedTexture2D::9181579230442345885::1733384185::1733384438::1::::<><>::
 Game_Start_Button.png::CompressedTexture2D::6935124372550380661::1733384185::1733384438::1::::<><>::
@@ -36,7 +36,7 @@ Retry_Button.png::CompressedTexture2D::495134591685851670::1733384185::173338443
 Surp_big.png::CompressedTexture2D::8489057406047093685::1733384185::1733384438::1::::<><>::
 Surp_small.png::CompressedTexture2D::5059936608798038479::1733384185::1733384438::1::::<><>::
 ::res://Button_img 2/::1733384230
-::res://ClickerBilder/::1733384225
+::res://ClickerBilder/::1733384439
 2211730843837_.pic.png::CompressedTexture2D::8432811346345678301::1733384185::1733384438::1::::<><>::
 bg.png::CompressedTexture2D::3465142351411581269::1733384185::1733384438::1::::<><>::
 bgMusic.wav::AudioStreamWAV::7862431972956012863::1733384185::1733384439::1::::<><>::
@@ -65,7 +65,7 @@ Exam_Builder.tscn::PackedScene::2933607488174753457::1733384185::0::1::::<><>::u
 ::res://Scripts/::1733384210
 exam_builder.gd::GDScript::-1::1733384185::0::1::::<>Node2D<>::
 ::res://Scripts 2/::1733384230
-::res://Sounds/::1733384218
+::res://Sounds/::1733384439
 1st_2nd_Upgrade_Sound.wav::AudioStreamWAV::540583970779471355::1733384185::1733384438::1::::<><>::
 Button_press.wav::AudioStreamWAV::7147148797639607491::1733384185::1733384438::1::::<><>::
 Enemy_death.mp3::AudioStreamMP3::22576135045467064::1733384185::1733384437::1::::<><>::
