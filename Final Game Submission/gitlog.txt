@@ -1,0 +1,220 @@
+commit 3b5fe2129dedfca8b8cd92997e2fdf7fccaec8fc
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Dec 6 14:52:45 2024 -0600
+
+    game submission update
+
+commit f5e262f95e323a31a03c66f70ac9c3f1c7ed0682
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Dec 5 01:52:19 2024 -0600
+
+    End of Project, finalizing all the files and ready to submit
+
+commit 585ee028c663d68e577687898a93c9751d609541
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Dec 5 01:39:43 2024 -0600
+
+    deleted duplicate files, organize the directory
+
+commit 1a852316609372c34390b4f6ee7c5eabdc6bfaf2
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Dec 5 01:12 2024 -0600
+
+    Fixing the button text and make it more clear and easy to understand the purpose
+
+commit 8c788d86c0baa7265d1656037aaf4b6d0eae394d
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Dec 5 01:37:39 2024 -0600
+
+    end of project, ready for the live demo.
+
+commit 810df0082eeb89f0bdbfe2935f9abe1d668ec897
+Merge: 0df67ad 6206930
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Dec 5 01:37:26 2024 -0600
+
+    Merge branch 'Petre-Jiang', keep the version at the same place
+
+commit 62069304e750adf380e800db2fa034c16853b786
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Dec 5 01:34:39 2024 -0600
+
+    end of project. Finish the imcremental feature.
+
+commit 66f52e1cad50193a3f035a86d98466779136df67
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Nov 29 12:16:02 2024 -0600
+
+    twicking the increment system and make the game prcess more smooth.
+
+commit 86d2e1c9136df67ad5984667701966f53a3f035a
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Mon Nov 25 11:38:28 2024 -0600
+
+    Peter and Charles are working on the game UI,added start and game over page,retry and start button
+
+commit 1c9136d84663557986d2e0df67a3a3f5a701966f
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Nov 14 22:12:56 2024 -0600
+
+    Update the skill description of the upgrading system and make it easier to understand
+
+
+commit 0df67ad1c91367986d2e846635a701966f53a3f5
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Nov 8 13:28:58 2024 -0600
+
+    Update the UI of the button. Make it more clear and easy to understand
+
+commit 0df67ad1c91367986d2e846635a701966f53a3f5
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Nov 8 13:28:58 2024 -0600
+
+    Update the UI of the button. Make it more clear and easy to understand
+
+commit 7e9dcb4251ffcc50c2d9f3153c4067df251cbe1a
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Nov 7 21:35:53 2024 -0600
+
+    Make the enemy looping after stealing the exam papers
+
+commit 4067df251ffc251cbe1a7e9dcb4f3153c50c2d9c
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Nov 7 20:36:57 2024 -0600
+
+    prototype ready, implement basic functions and demonstrate the base of the game
+
+commit c36c5c5e89062d308f26ca05285f2645807defbd
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 7 20:02:01 2024 -0600
+
+    Finalizing the folder
+
+commit ee0235343f235f81c2506201dcef2d64f63d21d2
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 7 19:59:54 2024 -0600
+
+    Fix the exam icon, make it more clickable and attractive.
+
+commit c9edb07d0e96e1b2731a4e9bdf7fffbdf6472978
+Author: Charles L <126411853+CodeBrew618@users.noreply.github.com>
+Date:   Thu Nov 7 19:28:02 2024 -0600
+
+    Update ExamPaper.jpg
+
+commit 51efad6262d19a7b7a11337776bc35a3b4120a15
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 7 19:17:16 2024 -0600
+
+    Update the enemy picture.
+
+commit 1a852316609372c34390b4f6ee7c5eabdc6bfaf2
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 7 17:37:01 2024 -0600
+
+    Added enemies dummy
+
+commit eea6461d54da11d3ebdd026de71f21a5c601bbe3
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Nov 7 15:19:39 2024 -0600
+
+    update the sound effect on the background music
+
+commit 1ae3cff6c964b43ab05d3f888738b965a9920e12
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 7 15:09:02 2024 -0600
+
+    Added Audio
+
+commit 9772974b13fa3a68a85649cca3d46ec958abd189
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 7 14:41:37 2024 -0600
+
+    Adding Increment Features
+    
+    Auto increment
+    Click Increment
+
+commit 6c11364544d96e9d682e26f91336dd1546568d05
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Tue Nov 5 20:33:02 2024 -0600
+
+    re-organize the files
+
+commit 98f0d36e6129ed8f6a1405c5175966a32f0f3cc9
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Tue Nov 5 20:27:06 2024 -0600
+
+    initial
+
+commit 8ea2ed3225db93a08b35d6041975ac92e2a91582
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Tue Nov 5 20:19:57 2024 -0600
+
+    Update global_script_class_cache.cfg
+
+commit ace34bd4bc9a119bc14a0a6a32215084e5003cd2
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Tue Nov 5 18:48:51 2024 -0600
+
+    Redesigned the structure of the game
+    
+    Had meeting today with group member and change the main game play of the game.
+
+commit a02b227eba83bdbf578fac3e154c47da6d6f8b34
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Mon Nov 4 22:01:50 2024 -0600
+
+    Added three enemy and randomly spaw exam to them
+
+commit dc049051cdfe19353dd2daebd1e17d49f4053219
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Mon Nov 4 21:45:15 2024 -0600
+
+    Successfully add timer to the exam object
+
+commit dc0490d1e17d4951cdbf4fe19305321953dd2dae
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Mon Nov 4 21:06:04 2024 -0600
+
+    Successfully add timer to the exam object
+
+commit 166e0ee78d7abdf067a4385a2f927f70b538ae5f
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Mon Nov 4 20:35:07 2024 -0600
+
+    Update the game structure
+
+commit 23b63812c99ea6f05c61d2b2f57eafc49a01ac7c
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Mon Nov 4 19:36:49 2024 -0600
+
+    Add game control to the main file
+    
+    But adding enemy function is still on process.
+
+commit 1af733d1dd24e8d55f6505d7272c64d67414e7e4
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Mon Nov 4 16:18:40 2024 -0600
+
+    Create Player and student instance
+    
+    Create Player and student instance
+
+commit 646161447d81507cb8d9d590b1bbd779802cc266
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Tue Oct 15 19:10:19 2024 -0600
+
+    Game Pitch
+
+commit 4cae7b9d950e1fb33f959498487a5f2dd0df41a6
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Oct 11 12:08:19 2024 -0600
+
+    Project PDF
+
+commit 630b4ecf5bb51979ae26aa88066b841b0e6bcc07
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Oct 11 12:00:00 2024 -0600
+
+    Initial commit

@@ -1,0 +1,32 @@
+Progress Since Prototype Submission
+-----------------------------------
+
+Peter and Charles
+- Role: Coding
+- Tasks Completed:
+  - Enhanced the clickable object with smoother interactions and animations.
+  - Refined the auto point accumulation system for balanced gameplay.
+  - Fully implemented upgrade functionality, including dynamic point boosts.
+  - Developed enemy mechanics where "worms" reduce points per second until addressed.
+  - Debugged collision issues between clickable object and enemies.
+  - Incorporated code for enemy scaling based on player progression.
+  - Added sound effects and animations to the clickable object and upgrades.
+
+Amy
+- Role: Project Management and Polish
+- Tasks Completed:
+  - Created a detailed video showcasing the beta version of the game.
+  - Reviewed and revised the burn-down chart to reflect completed tasks.
+  - Coordinated team discussions on art and sound integration.
+  - Reviewed pixel art assets and ensured alignment with game design.
+  - Assisted with balancing upgrades and enemy difficulty progression.
+
+Jarett
+- Role: Conceptualization and Gameplay Feedback
+- Tasks Completed:
+  - Proposed new upgrades and mechanics to expand gameplay depth.
+  - Wrote documentation for balancing techniques and late-game progression.
+  - Conducted playtesting sessions to identify bugs and gather feedback.
+  - Suggested refinements for UI clarity and player engagement.
+  - Researched incremental games to draw inspiration for polishing features.
+  - Reviewed and provided feedback on sound and animation integration.

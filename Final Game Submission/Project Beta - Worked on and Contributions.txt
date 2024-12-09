@@ -1,0 +1,36 @@
+Team Contributions and Tasks Completed
+--------------------------------------
+
+Peter and Charles
+- Role: Coding
+- Tasks Completed:
+  - Developed the central clickable object for generating points through user interaction.
+  - Created and debugged the point increment system that tracks and updates scores dynamically.
+  - Implemented an auto point accumulation feature for idle progression.
+  - Designed a placeholder button for future upgrades to increase points per second (PPS).
+  - Resolved bugs related to click registration and point scaling.
+  - Researched and prototyped upgrade functionality for enhancing gameplay mechanics.
+  - Implemented a prototype for upgrades that boost click efficiency.
+  - Explored and integrated methods for scaling upgrades and balancing progression.
+  - Collaborated on UI elements to display points and upgrades effectively.
+
+Amy
+- Role: Project Management and Media Creation
+- Tasks Completed:
+  - Created a burn-down chart to track progress and task prioritization.
+  - Recorded a video demonstration of the prototype's functionality.
+  - Reviewed team contributions and documented meeting outcomes.
+  - Drafted the timeline for project milestones and feature integration.
+  - Assisted in brainstorming art and animation ideas.
+  - Provided feedback on sound effects and gameplay features.
+
+Jarett
+- Role: Conceptualization and Documentation
+- Tasks Completed:
+  - Contributed core ideas for game mechanics, upgrades, and scaling systems.
+  - Wrote detailed documentation outlining the vision, planned features, and identified risks.
+  - Drafted bullet point summaries of team accomplishments and progress reports.
+  - Suggested balancing techniques for upgrades, enemies, and point progression.
+  - Conducted research on incremental game design strategies for inspiration.
+  - Organized and prioritized team discussions on upcoming features and polish.
+  - Provided feedback on UI design and overall player experience.
